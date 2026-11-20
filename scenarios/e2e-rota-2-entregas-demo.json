@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "E2E: rota com 2 entregas da loja demo (Haddock Lobo, 400 → Augusta, 1400)",
+  "waypoints": [
+    { "id": "loja", "label": "Restaurante Demo (Paulista, 1000)", "lat": -23.56140, "lng": -46.65590, "dwellSec": 180 },
+    { "id": "parada1", "label": "Rua Haddock Lobo, 400", "lat": -23.55700, "lng": -46.66300, "dwellSec": 120 },
+    { "id": "parada2", "label": "Rua Augusta, 1400", "lat": -23.55660, "lng": -46.66100, "dwellSec": 900 }
+  ],
+  "mode": "road",
+  "profile": "car",
+  "motion": { "speedKmh": 30, "timeScale": 1, "accuracyM": 8, "jitterM": 0, "tickMs": 1000, "loop": "off" }
+}

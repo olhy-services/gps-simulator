@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "E2E: entregadora espera na loja demo e leva à Rua Augusta, 1500",
+  "waypoints": [
+    { "id": "loja", "label": "Restaurante Demo (Paulista, 1000)", "lat": -23.56140, "lng": -46.65590, "dwellSec": 240 },
+    { "id": "cliente", "label": "Rua Augusta, 1500", "lat": -23.55602, "lng": -46.66190, "dwellSec": 600 }
+  ],
+  "mode": "road",
+  "profile": "car",
+  "motion": { "speedKmh": 30, "timeScale": 1, "accuracyM": 8, "jitterM": 0, "tickMs": 1000, "loop": "off" }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "gps-sim",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Simulador de GPS em movimento para emuladores Android, celulares Android (USB/Wi-Fi) e simuladores iOS.",
+  "license": "MIT",
+  "author": "Olhy Tecnologia",
+  "homepage": "https://github.com/olhy-services/gps-simulator#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olhy-services/gps-simulator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olhy-services/gps-simulator/issues"
+  },
+  "keywords": [
+    "gps",
+    "location",
+    "mock-location",
+    "android",
+    "ios-simulator",
+    "adb",
+    "osrm",
+    "testing"
+  ],
+  "type": "module",
+  "bin": {
+    "gps-sim": "./bin/gps-sim.mjs"
+  },
+  "scripts": {
+    "dev": "tsx src/server/cli.ts serve --dev",
+    "start": "tsx src/server/cli.ts serve",
+    "sim": "tsx src/server/cli.ts",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "node --import tsx --test \"src/**/*.test.ts\""
+  },
+  "dependencies": {
+    "tsx": "^4.23.15",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react-swc": "^4.3.3",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^16.5.0",
+    "lucide-react": "^0.562.0",
+    "maplibre-gl": "^6.18.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.72.2",
+    "vite": "^7.3.8"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "@swc/core"
+    ]
+  },
+  "packageManager": "pnpm@10.34.5"
+}

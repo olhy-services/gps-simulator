@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "Exemplo: entrega pelo centro",
+  "waypoints": [
+    { "id": "a", "label": "Loja (Av. Presidente Vargas)", "lat": -17.78674, "lng": -50.91462, "dwellSec": 10 },
+    { "id": "b", "label": "Cliente (UniRV)", "lat": -17.78662, "lng": -50.96351, "dwellSec": 0 }
+  ],
+  "mode": "road",
+  "profile": "car",
+  "motion": { "speedKmh": 40, "timeScale": 1, "accuracyM": 8, "jitterM": 0, "tickMs": 250, "loop": "pingpong" }
+}

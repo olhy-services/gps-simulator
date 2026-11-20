@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "E2E: entregadora perto da loja demo (Paulista)",
+  "waypoints": [
+    { "id": "a", "label": "Rua Augusta", "lat": -23.55602, "lng": -46.66190, "dwellSec": 5 },
+    { "id": "b", "label": "Perto da loja", "lat": -23.55990, "lng": -46.65740, "dwellSec": 5 }
+  ],
+  "mode": "road",
+  "profile": "car",
+  "motion": { "speedKmh": 12, "timeScale": 1, "accuracyM": 8, "jitterM": 0, "tickMs": 1000, "loop": "pingpong" }
+}
